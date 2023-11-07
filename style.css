@@ -5,6 +5,10 @@ body {
     align-items: center;
 }
 
+.turn {
+    padding-top: 30px;
+}
+
 .gameboard {
     padding: 30px;
     display: grid;
@@ -13,7 +17,10 @@ body {
 }
 
 .cell {
-    height: 80px;
-    width: 80px;
+    height: 10vh;
+    width: 10vh;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
